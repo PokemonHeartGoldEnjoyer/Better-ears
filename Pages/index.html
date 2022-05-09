@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="it">
+  <!--Main Navigation-->
+  <header>
+    <style>
+      /* Carousel styling */
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+      }
+
+      .carousel-item:nth-child(1) {
+        background-image: url('/img/elefante.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #introCarousel {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+    <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">MAMP PRO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MAMP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NAMO</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    More products
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">timeEdition</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Better Ears</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Receiver</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">B Flat</a>
+                    </li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-download"></i>  Free Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Buy</a>
+              </li> 
+              
+              <div class="dropdown-divider d-lg-none"></div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-apple"></i> Show information about the Mac version</a>
+              </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  <i class="fas fa-globe-americas"></i> Linguage
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Deutsch</a>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+        <!-- Container wrapper -->
+      </nav>
+    <!-- Navbar -->
+
+    <!-- Carousel wrapper -->
+      <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white text-center">
+                  <img src="https://www.mamp.info/images/header/start/text-mamp.svg" class="img-fluid d-none d-md-flex d-lg-none"/>
+                  <button type="button" class="btn btn-light "><i class="fas fa-download"></i>  Free Download </button>
+                  <button type="button" class="btn btn-light "><i class="fas fa-shopping-cart"></i> Buy MAMP Cloud </button>
+                </div>
+              </div>
+            </div>
+          </div>
+    <!-- Carousel wrapper -->
+  </header>
+  <body>
+    <!--Main Navigation-->
+
+    <div class="text-center line-text m-5" >
+      <h3>MAMP for Windows</h3>
+      <p>The free web development solution with Apache, Nginx, PHP & MySQL</p>
+    </div>
+
+    <div class="container line-text-inner col-12 col-lg-6 order-lg-first">
+      <img src="/img/pc.jpg"/>
+      <h3 class="text-center">What is MAMP?</h3>
+      <p>MAMP installs a local server environment in a matter of seconds on your Windows or macOS computer. MAMP comes free of charge, and is easily installed. MAMP will not compromise any existing Apache installation already running on your system. You can install Apache, Nginx, PHP and MySQL without starting a script or having to change any configuration files!</p>
+      <a href="/en/downloads/?m=1651122663&amp;">Free Download </a><i class="fas fa-angle-right" role="img"></i>
+    </div>
+
+    <div class="text-center line-text m-5" >
+      <h3 class="text-uppercase">Components in MAMP for Windows</h3>
+    </div>
+
+    <!--Components -->
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+          <i class="fas fa-database fa-3x m-4"></i>
+          <p><strong>MySQL</strong></p>
+          <p>MAMP supports MysQL 5.7</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+          <i class="fas fa-feather fa-3x m-4"></i>
+          <p><strong>Apache</strong></p>
+          <p>The leading HTTP server is integrated</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+          <img class="m-3" src="/img/ggicon.jpg" style="width: 15%;"/>
+          <p><strong>Nginx</strong></p>
+          <p>Also the Apache alternative is included</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+          <i class="fab fa-php fa-3x m-4"></i>
+          <p><strong>PHP</strong></p>
+          <p>The leading scripting language in web development</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+          <i class="fas fa-rocket fa-3x m-4"></i>
+          <p><strong>Caches</strong></p>
+          <p>For your choice: APC, eAccelerator, XCache und OPcache</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+          <i class="fas fa-cloud fa-3x m-4"></i>
+          <p><strong>MAMP Cloud*</strong></p>
+          <p>Sync host data through Dropbox</p>
+        </div>
+      </div>
+
+      <div class="container"><center>
+        <img src="/img/mampcloud.png"/>
+      </div></center>
+
+      <div class="container line-text-inner col-12 col-lg-6 order-lg-first">
+        <h3>What is MAMP Cloud?</h3>
+        <p>MAMP Cloud allows you to <strong>back up</strong> your host and database data from MAMP or MAMP PRO to <strong>Dropbox</strong>. With just one click, you can easily back up your projects to the cloud and reload them to another computer at any time. You can also use MAMP Cloud to backup your production data. MAMP Cloud is part of MAMP PRO. For the free MAMP you can add the cloud function with a one-time payment. MAMP Cloud is <strong>not a subscription</strong>.</p>
+        <a href="/en/mamp-cloud/?m=1601631237&">Learn more </a><i class="fas fa-angle-right" role="img"></i>
+      </div>
+
+    <!-- Footer -->
+        <footer class="bg-dark text-white">
+          <!-- Section: Social media -->
+          <section class="bg-light text-center mb-4">
+            <h6 class="text-dark" >Share this page</h6>
+            <!-- Facebook -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-12 col-md-3 text-md-left">
+                  <h5 class="">MAMP & MAMP PRO</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Downloads</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Documentation</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Follow us</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">MAMP.TV</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 col-md-3 text-md-left">
+                  <h5 class="">timeEdition</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Download on the Mac App Store</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Download on the App Store</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Get it on Google Play</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 col-md-3 text-md-left">
+                  <h5 class="">Better Ears</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Download on the Mac App Store</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Download on the App Store</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Get it on Google Play</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 col-md-3 text-md-left">
+                  <h5 class="">Receiver</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Apple App Store</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Amazon</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Google Play</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Follow us</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 col-md-3 text-md-left">
+                  <h5 class="">NAMO</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Download</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Support</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 col-md-3 text-md-left">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Try macOS App now</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Buy macOS App now</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Retrieve serial numbers</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Follow us</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-12 col-md-3 text-md-left">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Try macOS App now</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Buy macOS App now</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Retrieve serial numbers</a>
+                    </li>
+                  </ul>
+
+                  <h5 class="">B Flat</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Download on the App Store</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+          <!-- Copyright -->
+          <div class="list-inline text-center" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div class="row">
+              <a class="col text-white" href="https://mdbootstrap.com/">Contact Support</a>
+              <a class="col text-white" href="https://mdbootstrap.com/">Bugbase</a>
+            </div>
+            <div class="row">
+              <a class="col text-white" href="https://mdbootstrap.com/">Legal Notice</a>
+              <a class="col text-white" href="https://mdbootstrap.com/">Privacy Policy</a>
+              <a class="col text-white" href="https://mdbootstrap.com/">© MAMP GmbH 2022</a>
+            </div>
+          </div>
+          <!-- Copyright -->
+        </footer>
+  <!-- Footer -->
+
+  <!-- Font Icons Ecc-->
+    <!-- MDB -->
+      <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"
+      ></script>
+      <link rel="stylesheet" href="css/mdb.min.css" />
+      <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+      <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+      />
+    <!-- Google Fonts -->
+      <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+      />
+    <!-- MDB -->
+      <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
+      rel="stylesheet"
+      />
+
+  <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
