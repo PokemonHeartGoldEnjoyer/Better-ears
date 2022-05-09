@@ -12,7 +12,7 @@
       }
 
       .carousel-item:nth-child(1) {
-        background-image: url('/img/elefante.jpg');
+        background-image: url('/img/header.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -31,7 +31,7 @@
     </style>
 
     <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar bg-primary fixed-top navbar-not-scrolled bg-app-specific">
         <!-- Container wrapper -->
         <div class="container-fluid">
           <!-- Toggle button -->
@@ -88,18 +88,21 @@
                     </li>
                   </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-download"></i>  Free Download</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Buy</a>
-              </li> 
-              
+              <div class="nav-item d-lg-none">
+                <li class="nav-item">
+                  <a class="nav-link">Support</a>
+                </li>
+                <li class="nav-item d-lg-none">
+                  <img src="https://www.mamp.info/images/download-on-mac-app-store/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store" width="157" height="40">
+                </li>
+                <li class="nav-item d-lg-none">
+                  <img src="https://www.mamp.info/images/download-on-app-store/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" width="157" height="40">
+                </li>
+                <li class="nav-item d-lg-none">
+                  <img src="https://www.mamp.info/images/get-it-on-google-play/google-play-badge-en.png" alt="Get it on Google Play" width="157" height="40">
+                </li>
+              </div> 
               <div class="dropdown-divider d-lg-none"></div>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-apple"></i> Show information about the Mac version</a>
-              </li>
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
@@ -133,7 +136,7 @@
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
               <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white text-center">
-                  <img src="https://www.mamp.info/images/header/start/text-mamp.svg" class="img-fluid d-none d-md-flex d-lg-none"/>
+                  <img src="https://www.mamp.info/better-ears/images/header/start/text.svg" class="img-fluid d-none d-md-flex d-lg-none"/>
                   <button type="button" class="btn btn-light "><i class="fas fa-download"></i>  Free Download </button>
                   <button type="button" class="btn btn-light "><i class="fas fa-shopping-cart"></i> Buy MAMP Cloud </button>
                 </div>
@@ -145,13 +148,8 @@
   <body>
     <!--Main Navigation-->
 
-    <div class="text-center line-text m-5" >
-      <h3>MAMP for Windows</h3>
-      <p>The free web development solution with Apache, Nginx, PHP & MySQL</p>
-    </div>
-
     <div class="container line-text-inner col-12 col-lg-6 order-lg-first">
-      <img src="/img/pc.jpg"/>
+      <img src="/img/pc.png"/>
       <h3 class="text-center">What is MAMP?</h3>
       <p>MAMP installs a local server environment in a matter of seconds on your Windows or macOS computer. MAMP comes free of charge, and is easily installed. MAMP will not compromise any existing Apache installation already running on your system. You can install Apache, Nginx, PHP and MySQL without starting a script or having to change any configuration files!</p>
       <a href="/en/downloads/?m=1651122663&amp;">Free Download </a><i class="fas fa-angle-right" role="img"></i>
